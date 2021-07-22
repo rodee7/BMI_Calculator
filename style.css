@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    background-color: grey;
+    color: black;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: auto;
+    }
+
+body{
+margin-block: 20px;
+background-color: #286086;
+}
+
+#tr1,#tr4{
+    text-align: center;
+}
+
+#tr2,#tr3{
+    padding-left: 5px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
