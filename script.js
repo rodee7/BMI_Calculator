@@ -1,8 +1,7 @@
-var Weight = parseFloat(document.getElementById('Weight').value)
-var Height = parseFloat(document.getElementById('Height').value)
-
 function calculateBMI()
 {
+var Weight = parseFloat(document.getElementById('Weight').value)
+var Height = parseFloat(document.getElementById('Height').value)    
 var BMIFloat=Weight/Height ** 2
 var BMI=parseFloat(BMIFloat).toFixed(2)
 
